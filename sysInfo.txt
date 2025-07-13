@@ -1,0 +1,193 @@
+{
+  "CPU": [
+    {
+      "Manufacturer": "GenuineIntel",
+      "Name": "Intel(R) Core(TM) i7-14650HX",
+      "NumberOfCores": 16,
+      "NumberOfEnabledCore": 16,
+      "NumberOfLogicalProcessors": 24,
+      "ProcessorId": "BFEBFBFF000B0671",
+      "ThreadCount": 24,
+      "Family": 198,
+      "Description": "Intel64 Family 6 Model 183 Stepping 1",
+      "Caption": "Intel64 Family 6 Model 183 Stepping 1",
+      "Architecture": 9,
+      "DeviceID": "CPU0",
+      "ProcessorType": 3,
+      "SocketDesignation": "U3E1",
+      "MaxClockSpeed": 2200,
+      "VirtualizationFirmwareEnabled": false,
+      "Codename": "Raptor Lake-HX",
+      "SIMD Features": "SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    }
+  ],
+  "Motherboard": {
+    "Manufacturer": "LENOVO",
+    "Model": "83DG",
+    "Name": "LAPTOP-NO6LLRUL",
+    "Product": "LNVNB161216",
+    "SerialNumber": "",
+    "Tag": "",
+    "Version": "",
+    "Chipset": "HM770",
+    "Platform": "Laptop"
+  },
+  "Monitor": {},
+  "Memory": [
+    {
+      "BankLabel": "BANK 0",
+      "Capacity": 8589934592,
+      "ConfiguredClockSpeed": 5600,
+      "DeviceLocator": "Controller0-ChannelA-DIMM0",
+      "Manufacturer": "Samsung",
+      "MemoryType": 0,
+      "PartNumber": "M425R1GB4BB0-CWMOL  ",
+      "SerialNumber": "474BF533",
+      "SMBIOSMemoryType": 34,
+      "Speed": 5600
+    },
+    {
+      "BankLabel": "BANK 0",
+      "Capacity": 8589934592,
+      "ConfiguredClockSpeed": 5600,
+      "DeviceLocator": "Controller1-ChannelA-DIMM0",
+      "Manufacturer": "Samsung",
+      "MemoryType": 0,
+      "PartNumber": "M425R1GB4BB0-CWMOL  ",
+      "SerialNumber": "474B1C0C",
+      "SMBIOSMemoryType": 34,
+      "Speed": 5600
+    }
+  ],
+  "Disk": [
+    {
+      "Model": "U331",
+      "BusType": "USB",
+      "MediaType": "Unspecified",
+      "Size": 251658240000,
+      "UniqueId": "{3ffb465f-4761-6393-a38b-219499f0d164}",
+      "HealthStatus": "Healthy",
+      "FriendlyName": "aigo U331",
+      "Manufacturer": "aigo",
+      "SerialNumber": "0000000005\u0006\u0018",
+      "PhysicalSectorSize": 512,
+      "LogicalSectorSize": 512
+    },
+    {
+      "Model": "UMIS RPJYJ1T24RLS1QWY",
+      "BusType": "NVMe",
+      "MediaType": "SSD",
+      "Size": 1024209543168,
+      "UniqueId": "eui.5CDFB804A1F01EB7",
+      "HealthStatus": "Healthy",
+      "FriendlyName": "UMIS RPJYJ1T24RLS1QWY",
+      "Manufacturer": null,
+      "SerialNumber": "5CDF_B804_A1F0_1EB7.",
+      "PhysicalSectorSize": 4096,
+      "LogicalSectorSize": 512
+    }
+  ],
+  "DiskController": {
+    "标准 SATA AHCI 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-7A63",
+      "Subsystem ID": "383617AA",
+      "ACPI Path": "\\_SB.PC00.SAT0",
+      "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)"
+    },
+    "标准 NVM Express 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "1CC4-5414",
+      "Subsystem ID": "54141CC4",
+      "ACPI Path": "\\_SB.PC00.PEG0.PEGP",
+      "PCI Path": "PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)"
+    }
+  },
+  "GPU": {
+    "Intel(R) UHD Graphics": {
+      "Device ID": "8086-A78B",
+      "Subsystem ID": "3E4517AA",
+      "Manufacturer": "Intel",
+      "Codename": "Raptor Lake-S",
+      "Device Type": "核心显卡",
+      "ACPI Path": "\\_SB.PC00.GFX0",
+      "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+      "Bar Type": "65793",
+      "Above4GDecode": "1"
+    },
+    "NVIDIA GeForce RTX 4060 Laptop GPU": {
+      "Device ID": "10DE-28E0",
+      "Subsystem ID": "3E4517AA",
+      "Manufacturer": "NVIDIA",
+      "Codename": "未知 (未知)",
+      "Device Type": "独立显卡",
+      "ACPI Path": "\\_SB.PC00.PEG1.PEGP",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+      "Bar Type": "16843009",
+      "Above4GDecode": "1"
+    }
+  },
+  "Network": {
+    "Realtek PCIe GbE Family Controller": {
+      "Bus Type": "PCI",
+      "Device ID": "10EC-8168",
+      "Subsystem ID": "396E17AA",
+      "ACPI Path": "\\_SB.PC00.RP07.PXSX",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)",
+      "SubClass": "0"
+    },
+    "Realtek 8852CE WiFi 6E PCI-E NIC": {
+      "Bus Type": "PCI",
+      "Device ID": "10EC-C852",
+      "Subsystem ID": "585217AA",
+      "ACPI Path": "\\_SB.PC00.RP08.PXSX",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x7)/Pci(0x0,0x0)",
+      "SubClass": "128"
+    }
+  },
+  "Audio": {
+    "Realtek(R) Audio": {
+      "Bus Type": "INTELAUDIO",
+      "Device ID": "10EC-0257",
+      "Subsystem ID": "17AA3CB8",
+      "Audio Endpoints": "[麦克风阵列, 扬声器]",
+      "ACPI Path": "\\_SB.PC00.HDAS.IDA_",
+      "PCI Path": null
+    }
+  },
+  "Bluetooth": {
+    "Realtek Bluetooth Adapter": {
+      "Bus Type": "USB",
+      "Device ID": "0BDA-5852",
+      "DeviceDesc": null,
+      "ACPI Path": "\\_SB.PC00.XHCI.RHUB.HS14",
+      "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)"
+    }
+  },
+  "USB": null,
+  "OperatingSystem": {
+    "Caption": "Microsoft Windows 11 家庭中文版",
+    "CSName": "LAPTOP-NO6LLRUL",
+    "OSArchitecture": "64 位",
+    "BuildNumber": "26100",
+    "SerialNumber": "00342-31826-27383-AAOEM"
+  },
+  "System": null,
+  "BIOS": null,
+  "AHCI": true,
+  "SecureBoot": false,
+  "CSM": false,
+  "HPET": {
+    "ClassGuid": "",
+    "Name": "高精度事件计时器",
+    "PNPClass": "Unknown",
+    "PNPDeviceID": "",
+    "HardwareID": "",
+    "Service": "",
+    "Description": "高精度事件计时器",
+    "ConfigManagerErrorCode": -1,
+    "ACPI Path": "\\_SB.PC00.LPCB.HPET",
+    "PCI Path": "",
+    "ParentDeviceID": ""
+  }
+}
