@@ -1,4 +1,4 @@
-# TheFirstPageOS Tried版
+# TheFirstPageOS Test版
 By:席胤轩
 简介：一个简单的操作系统实现，包含EFI引导和基本命令行功能。
 鸣谢：王廷旭
